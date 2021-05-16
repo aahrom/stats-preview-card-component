@@ -1,0 +1,69 @@
+/*Declare global variables*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.right-card {
+  background-color: hsl(277, 64%, 61%);
+  line-height: 0;
+}
+
+img {
+  mix-blend-mode: multiply;
+}
+
+
+.main-container {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  margin: 14% auto;
+}
+
+.card-title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-description {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-stats {
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.card-stats-item p{
+  padding-right: 50px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+
+.attribution {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.left-card {
+  padding: 50px;
+}
