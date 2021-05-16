@@ -20,7 +20,7 @@ span {
 }
 
 img {
-  mixgi-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 
